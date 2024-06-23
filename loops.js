@@ -11,7 +11,7 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     console.log(`*`.repeat(i + 1));
 }
 
@@ -25,7 +25,7 @@ for (i = 0; i < 5; i++) {
 // klaar!
 // ==========================================
 
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     if (i !== 4) {
         console.log(`loop...`);
     } else {
@@ -48,7 +48,7 @@ for (i = 0; i < 5; i++) {
 // >> 8
 // >> 9
 // ==========================================
-for (i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     if (i >= 6) {
         console.log(`>> ${i}`)
     } else if (i >= 3) {
@@ -95,7 +95,7 @@ for (i = 0; i < 10; i++) {
 // etc.
 // ==========================================
 
-for (i = 0; i < 100; i++) {
+for (let i = 0; i < 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log(`FizzBuzz`)
     } else if (i % 3 === 0) {
